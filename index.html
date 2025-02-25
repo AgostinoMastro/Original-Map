@@ -315,7 +315,7 @@
             drawAreaBoundary(Area4, '#FFFF00');
             drawAreaBoundary(Area5, '#FF0000');
             // Add pins for existing areas
-            addPin({ lat: 44.680284427372506, lng: 79.2495564914556 }, '#f80505', '0')
+            addPin({ lat: 44.680301, lng: -79.249559 }, 'red', '0');
             addPin({ lat: 44.680609, lng: -79.249704 }, '#0000FF', '1');
             addPin({ lat: 44.680879, lng: -79.249855 }, '#800080', '2');
             addPin({ lat: 44.681133, lng: -79.249981 }, '#CFFF04', '3');
@@ -520,7 +520,7 @@
             for (var i = 5; i < markers.length; i++) {
                 markers[i].setMap(null);
             }
-            markers = [markers[0], markers[1], markers[2], markers[3], markers[4]. markers[5]];
+            markers = [markers[0], markers[1], markers[2], markers[3], markers[4]];
         }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEO0_2kf8146iPb4DiTgSZqgsMCtQYktQ&callback=initMap" async defer></script>
